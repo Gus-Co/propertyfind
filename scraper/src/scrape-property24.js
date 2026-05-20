@@ -100,9 +100,16 @@ async function scrape() {
           status: 'active',
           last_seen_at: new Date().toISOString()
         }))
-        .filter(item => item.listing_url && item.price && item.bedrooms)
-        .filter(item => item.price <= MAX_RENT && item.bedrooms >= MIN_BEDROOMS);
+        .filter(item => item.listing_url)
+.filter(item => {
+  const hasPrice = item.price !== null && !isNaN(item.price);
+  const hasBedrooms = item.bedrooms !== null && !isNaN(item.bedrooms);
 
+  return hasPrice && hasBedrooms;
+})
+.filter(item => item.price <= MAX_RENT)
+.filter(item => item.bedrooms >= MIN_BEDROOMS);
+      console.log(filtered.slice(0, 5));
       console.log(`Filtered listings: ${filtered.length}`);
 
       for (const property of filtered) {
