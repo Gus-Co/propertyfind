@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  propertyfind:
+    build: ./scraper
+    container_name: propertyfind_scraper
+    restart: unless-stopped
+    env_file:
+      - .env
+    command: npm start
