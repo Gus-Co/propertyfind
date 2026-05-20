@@ -1,0 +1,29 @@
+SUPABASE_URL=
+SUPABASE_SERVICE_ROLE_KEY=
+SUPABASE_ANON_KEY=
+
+GOOGLE_SHEET_ID=
+GOOGLE_CLIENT_EMAIL=
+GOOGLE_PRIVATE_KEY=
+
+MAX_RENT=7500
+MIN_BEDROOMS=2
+
+{
+  "type": "service_account",
+  "project_id": "supabase-460606",
+  "private_key_id": "df6feef868d4cf23699fd7a7683a21ab4a78f89b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDlW/McY+GdQn19\n9jPA9Z666GDHUInk31ic5Pu3ydN3kUcbSUCzL4CPfJ/ZW4B6IPw8US6jU9KK4EzR\nPAvHhrywLFsWX1S7UZksoo1Jge49pVSe8HWM3uhvm9ZALmXBINshQD9qwbG20Wj5\npRcPJJnsgXYKnesJRvzaHRpun9HxlsbzZO4CKvESIQJUSHDOKq+E5kBmMJRidNpY\nos+HmdS7ov9hXJCv5ZshWdmNbHSexuJjf+bMUS8jUTtwSXa7SZ54jJzqBHpcLwqa\nhNH0nL5PC+GZLiWES2TcOJCpAiUQnPoEsFo8PzM3aHVETSgg7gXzoLBCDV1aKSaJ\nL5Qr1fFRAgMBAAECggEAA+XU4xfgcu15F/2p4f7amHcQA/seqMzR4vKyQ2yS4y6N\nHI3ZY2Ish2O5DLbVH141oynHBuALDTCkJY8lbRnhVYYfcykiFb/cgElv6L6kR5hq\ncHwKJ193aEQn9zXCpW5TQwSmP0B07nQvGkT/uBJpaj9F/Aa0gpcZ/3PsqdId/YLH\n98PFR5ljIYYD8FjraVULfhXuQtyNLWPFZvzNf9PC+9v+iDCs+bFYbSEUk4XAI6YF\nfq42U7sC8QPOkNEPE+jqlguebPQuYEFmMkITiZZ3WIwN/Gmpfd+WYEAgcApnxWej\nm4PMeqwWa7TRCksmLn44WqQoGfEWso8TkZ1tjRnhpQKBgQD6PiL/227T1djpnNy8\nfhxeLb+r/ZD9NLShAnmYbK6hLKBkzVt1v25LRnd6f1ZWxft2CTzGj76ekR4/RA1l\noB1aztee/YduP9JNalLKRQ5YN8imBsRYjCF/3pUaKK45FIL/w+8U1D2Bq1roNrnS\nk0k1X2+O4mYkT5xGokbF7siTbQKBgQDqotB8sNa5cR1LfQNKhZ85O7NmiweXMTXm\nTL9QIR9Oieak4RKX8+XJdCNQuRSHJKrAQqeSBw26HHTvRcb6/Wh8rO9wX9nGbA7x\nyee4HlhXQyFSVcFW7mBtckny7cZCkYb7p3a+B2UkO/Oiv7n0lGO+ZRHByggwcfqo\ndpGnGWIC9QKBgCCRD5r+ori83uLgQDXjr6tuBsDKWiEpx8wgd1Sn6D4fgaw8sYds\nZ10yiYAOrFzUnToqT5eDw4n9VtNi9t9f7BISUytk0Ug+1A6xJJ8gR5Khh+JbhRgE\n/KMYg40I+EuDaN0CUc4DJRIIC+emn55Q/rkMd4c/3Y0iMzNaER3XSpEtAoGAWvgu\n/vkM9y7c3cSlPwJZfjYgUxR6J+tDa3u7/NQqsCeVDb3ZmKJOJ/HoM0bep5rWvN3a\n3Cnx74NS7uXNxMf098mQt6/h3iVNEf9m4KKbO5HiXGq1IAAh0K0r8IyxfmOvwufl\niL2TQB4iUqok7aeOmGXVIZ4z2JyIQ0JdLD0SG/UCgYEA1gHk29uyxwIUoGLa4dHi\nGzbl2AfCxqNyAKa2KEU66thFlO484AThG0pT5diMMFz0AfXGuKDMBcFpttA3ejjo\nDaUqGQ7z030rC66XpktFEJTa8J/KTEY3IuijKXpT5RV2e3Cs2OwoxjSrU7Yv9H9x\n4+vvcnsp2ZCz38Cgabehj7Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "propertyfind-bot@supabase-460606.iam.gserviceaccount.com",
+  "client_id": "114142662356021529182",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/propertyfind-bot%40supabase-460606.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNwanJha3dseGJ0aXBqanZyaGN2Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3OTIzMTEwMCwiZXhwIjoyMDk0ODA3MTAwfQ.hLsp2LkHBSiHP6cC6Opt7O3syStTC_K86Kq11kszOs0
+
+https://cpjrakwlxbtipjjvrhcv.supabase.co
