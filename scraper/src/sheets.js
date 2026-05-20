@@ -6,14 +6,10 @@ dotenv.config();
 const spreadsheetId = process.env.GOOGLE_SHEET_ID;
 const sheetName = process.env.GOOGLE_SHEET_NAME || 'Listings';
 
-function getPrivateKey() {
-  return process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n');
-}
-
 export async function getSheetsClient() {
   const auth = new google.auth.JWT({
     email: process.env.GOOGLE_CLIENT_EMAIL,
-    key: getPrivateKey(),
+    key: process.env.GOOGLE_PRIVATE_KEY,
     scopes: ['https://www.googleapis.com/auth/spreadsheets']
   });
 
